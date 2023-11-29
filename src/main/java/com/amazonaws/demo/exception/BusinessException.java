@@ -20,12 +20,6 @@ public class BusinessException extends RuntimeException {
         this.message = exceptionEnum.getValue();
     }
 
-    /**
-     * 自定义异常消息处理
-     *
-     * @param code
-     * @param message
-     */
     public BusinessException(int code, String message) {
         this.code = code;
         this.message = message;

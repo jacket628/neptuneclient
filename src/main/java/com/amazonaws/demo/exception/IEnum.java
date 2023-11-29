@@ -1,12 +1,4 @@
 package com.amazonaws.demo.exception;
-
-/**
- * @author ：z7
- * @project_name ：protocol-transition-system
- * @class_name：ResultEnum
- * @descriptive ：TODO 获取枚举key、value键值对信息
- * @create_date ：2022/2/14 10:14
- */
 public interface IEnum {
 
     /**

@@ -3,8 +3,6 @@ package com.amazonaws.demo.config;
 import com.amazonaws.auth.AWSCredentialsProvider;
 import com.amazonaws.auth.DefaultAWSCredentialsProviderChain;
 import com.amazonaws.demo.bean.GraphClient;
-import com.amazonaws.neptune.auth.NeptuneNettyHttpSigV4Signer;
-import com.amazonaws.neptune.auth.NeptuneSigV4SignerException;
 import org.apache.tinkerpop.gremlin.driver.*;
 import org.apache.tinkerpop.gremlin.driver.remote.DriverRemoteConnection;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +13,6 @@ import software.amazon.neptune.cluster.*;
 import java.util.Collections;
 import java.util.concurrent.TimeUnit;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.tinkerpop.gremlin.driver.IamAuthConfig;
 
 @Configuration
 @Slf4j

@@ -2,8 +2,6 @@ package com.amazonaws.demo.config;
 
 import com.amazonaws.demo.bean.GraphClient;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.tinkerpop.gremlin.driver.Cluster;
-import org.apache.tinkerpop.gremlin.driver.GremlinCluster;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
