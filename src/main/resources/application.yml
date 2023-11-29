@@ -1,0 +1,7 @@
+server:
+  port: 8081
+
+aws:
+  region: eu-west-1
+  clusterId: database-1
+  intervalSeconds: 15
